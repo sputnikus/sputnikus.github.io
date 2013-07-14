@@ -9,6 +9,9 @@ body {
 
 .content {
     font-size: 110%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -117,6 +120,12 @@ h3 {
 .header-menu {
     vertical-align: bottom;
     margin-bottom: 24px;
+}
+
+#menu-list {
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
 }
 
 .tag-cloud {

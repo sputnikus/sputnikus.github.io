@@ -13,8 +13,10 @@ from pelicanconf import *
 SITEURL = 'http://sputnikus.github.io'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_ATOM = 'feeds/main.atom.xml'
+FEED_RSS = 'feeds/main.xml'
+CATEGORY_FEED_ATOM = None
+FEED_DOMAIN = SITEURL
 
 DELETE_OUTPUT_DIRECTORY = True
 
