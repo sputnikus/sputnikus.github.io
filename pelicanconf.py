@@ -18,6 +18,7 @@ TRANSLATION_FEED_ATOM = None
 DEFAULT_PAGINATION = 10
 
 THEME = "bysputnikus_theme"
+TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
