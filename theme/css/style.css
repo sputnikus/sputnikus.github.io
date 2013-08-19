@@ -170,7 +170,7 @@ blockquote {
         body { font-size: 80%;}
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 500px) {
         body {
             font-size: 65%;
             width: 85%; }
