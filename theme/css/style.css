@@ -160,17 +160,17 @@ blockquote {
 
 /* Media queries */
 
-    @media only screen and (min-width: 1100px) {
+    @media only screen and (min-device-width: 1100px) {
         body { font-size: 100%;}
         .content { width: 80%; }
 
     }
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-device-width: 800px) {
         body { font-size: 80%;}
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-device-width: 500px) {
         body {
             font-size: 65%;
             width: 85%; }
