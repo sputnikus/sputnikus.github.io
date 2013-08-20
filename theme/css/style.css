@@ -70,7 +70,7 @@ article a:visited {
 
 h1 {
     font-weight: 900;
-    font-size: 5.2em;
+    font-size: 500%;
     margin-top: .1em;
     margin-bottom: .2em;
 }
@@ -160,19 +160,28 @@ blockquote {
 
 /* Media queries */
 
-    @media (min-width: 1100px) {
+    @media (min-width: 980px) {
         body { font-size: 100%;}
         .content { width: 80%; }
 
     }
 
-    @media (max-width: 867px) {
-        body { font-size: 80%;}
+     @media (max-width: 979px) {
+        body { font-size: 80%; }
+        .header-menu { display: none; }
+    }
+
+    @media (max-width: 767px) {
+        body {
+            font-size: 80%;
+        }
+        .header-menu { display: none; }
+        .footer-menu { display: block; }
     }
 
     @media (max-width: 480px) {
         body {
-            font-size: 65%;
+            font-size: 60%;
             width: 85%; }
         .header-menu { display: none; }
         .footer-menu { display: block; }
