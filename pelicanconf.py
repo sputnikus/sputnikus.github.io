@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Martin Putniorz'
-SITENAME = u'bysputnikus by Martin Putniorz'
+SITENAME = u'blog of Martin Putniorz'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
