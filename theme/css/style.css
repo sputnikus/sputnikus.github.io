@@ -167,13 +167,16 @@ blockquote {
     }
 
      @media (max-width: 979px) {
-        body { font-size: 80%; }
-        .header-menu { display: none; }
+        body {
+            font-size: 70%;
+            width: 85%;
+        }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         body {
-            font-size: 80%;
+            font-size: 75%;
+            width: 85%;
         }
         .header-menu { display: none; }
         .footer-menu { display: block; }
