@@ -160,15 +160,15 @@ blockquote {
 
 /* Media queries */
 
-    @media (min-width: 980px) {
+    @media (min-width: 1081px) {
         body { font-size: 100%;}
         .content { width: 80%; }
 
     }
 
-     @media (max-width: 979px) {
+     @media (max-width: 1080px) {
         body {
-            font-size: 70%;
+            font-size: 80%;
             width: 85%;
         }
     }
