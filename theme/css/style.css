@@ -192,7 +192,7 @@ blockquote {
 
     @media (max-width: 240px) {
         body {
-            font-size: 50%;
+            font-size: 25%;
             width: 85%; }
         .header-menu { display: none; }
         .footer-menu { display: block; }
