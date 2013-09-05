@@ -143,16 +143,6 @@ h3 {
     font-size: 120%;
 }
 
-.social a {
-    text-decoration: none;
-    border: none;
-}
-
-.social a:hover {
-    text-decoration: none;
-    border: none;
-}
-
 blockquote {
     padding-left: 12px;
     border-left: 6px solid #40c365;
