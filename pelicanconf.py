@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Martin Putniorz'
-SITENAME = u'blog of Martin Putniorz'
+SITENAME = u'bysputnikus'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
@@ -27,3 +27,4 @@ TEMPLATE_PAGES = {'pages/about.html': 'about.html'}
 
 TWITTER_USERNAME = 'sputnikus'
 FLATTR_USERNAME = 'sputnikus'
+USE_OPEN_GRAPH = True
