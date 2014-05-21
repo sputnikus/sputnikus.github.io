@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://sputnikus.github.io'
+SITEURL = 'https://sputnikus.github.io'
 RELATIVE_URLS = False
 
 FEED_ATOM = 'feeds/main.atom.xml'
