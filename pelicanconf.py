@@ -17,14 +17,23 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 10
 
-THEME = "bysputnikus_theme"
+THEME = "/home/sputnikus/workspace/pure"
 TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-TEMPLATE_PAGES = {'pages/about.html': 'about.html'}
+#TEMPLATE_PAGES = {'pages/about.html': 'about.html'}
 
 TWITTER_USERNAME = 'sputnikus'
 FLATTR_USERNAME = 'sputnikus'
 USE_OPEN_GRAPH = True
+
+TAGLINE = "Profit before fun"
+COVER_IMG_URL = "https://i.imgur.com/eaUyu3c.jpg"
+
+SOCIAL = (
+    ('github-square', 'https://github.com/sputnikus/'),
+    ('twitter-square', 'https://twitter.com/sputnikus'),
+    ('linkedin-square', 'https://www.linkedin.com/in/mputniorz'),
+)
