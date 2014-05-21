@@ -29,11 +29,11 @@ TWITTER_USERNAME = 'sputnikus'
 FLATTR_USERNAME = 'sputnikus'
 USE_OPEN_GRAPH = True
 
-TAGLINE = "Profit before fun"
-COVER_IMG_URL = "https://i.imgur.com/eaUyu3c.jpg"
+TAGLINE = "Living, hacking, noting"
+COVER_IMG_URL = "https://i.imgur.com/yydnt.jpg"
 
 SOCIAL = (
-    ('github-square', 'https://github.com/sputnikus/'),
     ('twitter-square', 'https://twitter.com/sputnikus'),
+    ('github-square', 'https://github.com/sputnikus/'),
     ('linkedin-square', 'https://www.linkedin.com/in/mputniorz'),
 )
