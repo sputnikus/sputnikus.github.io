@@ -6,7 +6,7 @@ AUTHOR = u'Martin Putniorz'
 SITENAME = u'bysputnikus'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Prague'
 
 DEFAULT_LANG = u'en'
 

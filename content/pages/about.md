@@ -15,6 +15,6 @@ I'm [hacker](http://paulgraham.com/gba.html) currently located in [Brno, Czech R
 
 I also like reading about all sorts of stuff: philosophy, politics, economics, lifestyle. Not only books, my favourite articles are published on [Tumblr](http://sputnikus.tumblr.com/) (which reflects Instapaper likes (along with some pictures)).
 
-You can find my social links in sidebar or you can just mail me mputniorz<!-- >@. -->@<!-- >@. -->gmail<!-- >@. -->.<!-- >@. -->com.
+You can find my social links in sidebar or you can just mail me mputniorz<!-- >@. -->@<!-- gmail>@. -->gmail<!-- - ->@. gmail-->.<!-- @>@. -->com.
 
 *Last updated 2014-05-22*
