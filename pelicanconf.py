@@ -17,13 +17,18 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 10
 
+ARTICLE_URL = '{slug}'
+ARTICLE_SAVE_AS = '{slug}.html'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+
+PAGE_URL = 'pages/{slug}/'
+
+CATEGORY_URL = False
+CATEGORY_SAVE_AS = False
+
 THEME = "/home/sputnikus/workspace/pure"
 TYPOGRIFY = True
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-#TEMPLATE_PAGES = {'pages/about.html': 'about.html'}
 
 TWITTER_USERNAME = 'sputnikus'
 FLATTR_USERNAME = 'sputnikus'
@@ -34,6 +39,14 @@ COVER_IMG_URL = "https://i.imgur.com/yydnt.jpg"
 
 SOCIAL = (
     ('twitter-square', 'https://twitter.com/sputnikus'),
-    ('github-square', 'https://github.com/sputnikus/'),
+    ('github-square', 'https://github.com/sputnikus'),
     ('linkedin-square', 'https://www.linkedin.com/in/mputniorz'),
+)
+
+MENUITEMS = (
+    ('About', 'pages/about'),
+)
+
+DEFAULT_METADATA = (
+    ('about_author', 'Standing and hacking. Developed backends for some sites. Coffee and beer aficionado.<br>I can be wrong.'),
 )
