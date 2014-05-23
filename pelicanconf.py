@@ -30,6 +30,11 @@ CATEGORY_SAVE_AS = False
 THEME = "/home/sputnikus/workspace/pure"
 TYPOGRIFY = True
 
+PLUGIN_PATH = '/home/sputnikus/workspace/pelican-plugins'
+PLUGINS = ['related_posts', ]
+
+RELATED_POSTS_MAX = 3
+
 TWITTER_USERNAME = 'sputnikus'
 FLATTR_USERNAME = 'sputnikus'
 USE_OPEN_GRAPH = True
