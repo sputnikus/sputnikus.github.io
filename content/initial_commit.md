@@ -11,8 +11,8 @@ Don't expect me to pull [PG](http://paulgraham.com/ "Paul Graham's blog")-style 
 
 ![Testing gif](http://assets.sbnation.com/assets/1349764/Happy_gif.gif "Does this even gif?")
 
-I'm interested to write about hacking some stuff (mostly software), my thoughs, geek stuff in general and a lots of other things (see [info](http://sputnikus.github.io/about.html) about what I like). I also want to use this opportunity to sharpen my language skills, so feel free to punish my mistakes in comments (also, let's see if comments works).
+I'm interested to write about hacking some stuff (mostly software), my thoughs, geek stuff in general and a lots of other things (see [info]({filename}/pages/about.md) about what I like). I also want to use this opportunity to sharpen my language skills, so feel free to punish my mistakes in comments (also, let's see if comments works).
 
-This template will be under heavy development and you can write your opinions about it to [me](http://sputnikus.github.io/about.html) or file an [issue](https://github.com/sputnikus/bysputnikus-pelican-theme/issues).
+This template will be under heavy development and you can write your opinions about it to [me]({filename}/pages/contact-me.md) or file an [issue](https://github.com/sputnikus/bysputnikus-pelican-theme/issues).
 
 That's it for now, I think. I'll be aiming for at least two posts per week (but when there's nothing...).

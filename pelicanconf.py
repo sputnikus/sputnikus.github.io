@@ -22,7 +22,7 @@ ARTICLE_SAVE_AS = '{slug}.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
-PAGE_URL = 'pages/{slug}/'
+PAGE_URL = 'pages/{slug}'
 
 CATEGORY_URL = False
 CATEGORY_SAVE_AS = False
@@ -50,6 +50,7 @@ SOCIAL = (
 
 MENUITEMS = (
     ('About', 'pages/about'),
+    ('Contact', 'pages/contact-me'),
 )
 
 DEFAULT_METADATA = (
