@@ -54,5 +54,5 @@ MENUITEMS = (
 )
 
 DEFAULT_METADATA = (
-    ('about_author', 'Standing and hacking. Controls things from behind the scenes. Coffee and beer aficionado.<br>I can be wrong.'),
+    ('about_author', 'Standing and hacking my way to antifragility. Coffee and beer aficionado.<br>I can be wrong.'),
 )
