@@ -64,7 +64,7 @@
                         </p>
                 </header>
             </section>
-            <p>As you might know, <a href="https://github.com/progrium/dokku">Dokku</a> officialy supports Ubuntu (14.04 x64 or 12.04 x64). But Ubuntu (at least on server) is just Debian, so there&#8217;s no reason, why it should not work, right? Wrong - but I&#8217;m gonna show you problems and possible solution, that I&#8217;ve&nbsp;used.</p>
+            <p>As you might know, <a href="https://github.com/progrium/dokku">Dokku</a> officially supports Ubuntu (14.04 x64 or 12.04 x64). But Ubuntu (at least on server) is just Debian, so there&#8217;s no reason, why it should not work, right? Wrong - but I&#8217;m gonna show you problems and possible solution, that I&#8217;ve&nbsp;used.</p>
 <h2>Dokku&nbsp;installation</h2>
 <p>First problem you encounter during execution of bootstrap script. It uses <code>add-apt-repository</code> helper, which is custom Ubuntu command. Workaround is pretty easy, but a little bit messy - you just get your own helper&nbsp;script:</p>
 <div class="highlight"><pre><span class="go"># wget http://blog.anantshri.info/content/uploads/2010/09/add-apt-repository.sh.txt</span>
