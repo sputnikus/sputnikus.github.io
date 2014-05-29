@@ -26,6 +26,8 @@ PAGE_URL = 'pages/{slug}'
 
 CATEGORY_URL = False
 CATEGORY_SAVE_AS = False
+TAGS_URL = False
+TAGS_SAVE_AS = False
 
 THEME = "/home/sputnikus/workspace/pure"
 TYPOGRIFY = True
