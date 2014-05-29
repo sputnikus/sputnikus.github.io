@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="bysputnikus, Living, hacking, noting">
     <meta property="og:type" content="article"/>
-    <meta property="og:title" content="Initial&amp;nbsp;Commit"/>
-    <meta property="og:url" content="https://sputnikus.github.io/initial_commit"/>
-    <meta property="og:description" content="First article on my new blog"/>
+    <meta property="og:title" content="Dokku on Debian: Tips &lt;span class=&#34;amp&#34;&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;Tricks"/>
+    <meta property="og:url" content="https://sputnikus.github.io/dokku_debian"/>
+    <meta property="og:description" content="How to get your Debian based Heroku up and running"/>
     <link rel="alternate" href="https://sputnikus.github.io/feeds/main.atom.xml" type="application/atom+xml" title="bysputnikus Atom Feed"/>
     <link rel="alternate" href="https://sputnikus.github.io/feeds/main.xml" type="application/rss+xml" title="bysputnikus RSS Feed"/>
-    <title>Initial Commit // bysputnikus // Living, hacking, noting</title>
+    <title>Dokku on Debian: Tips & Tricks // bysputnikus // Living, hacking, noting</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -49,7 +49,7 @@
                 <h2 class="article-info">Martin Putniorz</h2>
                 <small class="about-author">Standing and hacking my way to antifragility. Coffee and beer aficionado.<br>I can be wrong.</small>
                 <h5>Published</h5>
-                <p>July 2013</p>
+                <p>May 2014</p>
                 <a href="/">&larr;Home</a>
             </hgroup>
         </header>
@@ -58,19 +58,44 @@
         <div class="content">
             <section class="post">
                 <header class="post-header">
-                    <h1>Initial&nbsp;Commit</h1>
+                    <h1>Dokku on Debian: Tips <span class="amp">&amp;</span>&nbsp;Tricks</h1>
                         <p class="post-meta">
-                            // under                                 <a class="post-category" href="https://sputnikus.github.io/tag/writing.html">writing</a>
-                                <a class="post-category" href="https://sputnikus.github.io/tag/misc.html">misc</a>
+                            // under                                 <a class="post-category" href="https://sputnikus.github.io/tag/devops.html">devops</a>
                         </p>
                 </header>
             </section>
-            <p>What do you say in your first post on new blog? Frankly, I don&#8217;t know. With this I&#8217;m forcing myself a little bit into writing habit. I made couple of short posts, now sitting in my Dropbox, but I want to push this forward, become more&nbsp;consistent.</p>
-<p>Don&#8217;t expect me to pull <a href="http://paulgraham.com/" title="Paul Graham's blog"><span class="caps">PG</span></a>-style essays right from the start. Those articles are legendary and if I can make something like that from time to time, I&#8217;ll be&nbsp;happy.</p>
-<p><img alt="Testing gif" src="http://assets.sbnation.com/assets/1349764/Happy_gif.gif" title="Does this even gif?" /></p>
-<p>I&#8217;m interested to write about hacking some stuff (mostly software), my thoughs, geek stuff in general and a lots of other things (see <a href="https://sputnikus.github.io/pages/about">info</a> about what I like). I also want to use this opportunity to sharpen my language skills, so feel free to punish my mistakes in comments (also, let&#8217;s see if comments&nbsp;works).</p>
-<p>This template will be under heavy development and you can write your opinions about it to <a href="https://sputnikus.github.io/pages/contact-me">me</a> or file an <a href="https://github.com/sputnikus/bysputnikus-pelican-theme/issues">issue</a>.</p>
-<p>That&#8217;s it for now, I think. I&#8217;ll be aiming for at least two posts per week (but when there&#8217;s&nbsp;nothing&#8230;).</p>
+            <p>As you might know, <a href="https://github.com/progrium/dokku">Dokku</a> officialy supports Ubuntu (14.04 x64 or 12.04 x64). But Ubuntu (at least on server) is just Debian, so there&#8217;s no reason, why it should not work, right? Wrong - but I&#8217;m gonna show you problems and possible solution, that I&#8217;ve&nbsp;used.</p>
+<h2>Dokku&nbsp;installation</h2>
+<p>First problem you encounter during execution of bootstrap script. It uses <code>add-apt-repository</code> helper, which is custom Ubuntu command. Workaround is pretty easy, but a little bit messy - you just get your own helper&nbsp;script:</p>
+<div class="highlight"><pre><span class="go"># wget http://blog.anantshri.info/content/uploads/2010/09/add-apt-repository.sh.txt</span>
+<span class="go"># cp add-apt-repository.sh.txt /usr/sbin/add-apt-repository</span>
+<span class="go"># chmod o+x /usr/sbin/add-apt-repository</span>
+</pre></div>
+
+
+<p>Now just execute bootstrap again and all should be fine.&nbsp;Right?</p>
+<h2>sshcommand</h2>
+<p>Dokku is using <a href="https://github.com/progrium/sshcommand">sshcommand</a> to propagate itself through <code>ssh</code>. This is really neat, because during bootstrap <em>dokku</em> user is created to execute commands remotely. There&#8217;s only a tiny little problem. This user is passwordless and works only on key basis. Which is cool if you are on Ubuntu, because such user is fully operational. Debian on the other hand just <strong>locks it</strong>. Without password you are screwed even if you disable password auth through <em>secure shell</em>. Solution? Just add some random password to <em>dokku</em> user (I&#8217;ve generated it using <a href="http://www.passwordstore.org/">pass</a>):</p>
+<div class="highlight"><pre><span class="p">(</span><span class="kd">local</span><span class="p">)</span> <span class="err">$</span> <span class="nb">pass</span> <span class="nx">generate</span> <span class="nx">citra</span><span class="p">/</span><span class="nx">dokku</span> <span class="mi">20</span>
+<span class="p">(</span><span class="nx">remote</span><span class="p">)</span> <span class="err">#</span> <span class="nx">usermod</span> <span class="na">-p</span> <span class="s1">&#39;&lt;new_password&gt;&#39;</span> <span class="nx">dokku</span>
+<span class="p">(</span><span class="nx">remote</span><span class="p">)</span> <span class="err">#</span> <span class="nx">passwd</span> <span class="na">-u</span> <span class="nx">dokku</span>
+</pre></div>
+
+
+<h2>acl-add</h2>
+<p>Adding you public key to <em>dokku</em> control keys is also kinda tricky. Standard command from project <span class="caps">README</span>:</p>
+<div class="highlight"><pre><span class="err">$</span> <span class="nx">cat</span> <span class="err">~</span><span class="p">/</span><span class="nx">.ssh</span><span class="p">/</span><span class="nx">id_rsa.pub</span> <span class="o">|</span> <span class="nx">ssh</span> <span class="nx">progriumapp.com</span> <span class="s2">&quot;sudo sshcommand acl-add dokku &lt;alias&gt;&quot;</span>
+</pre></div>
+
+
+<p>does not work, because (at least in my case), sudo considered parts of my key my passwords (if you are a badass with passwordless sudo, you are going to be fine). So I just executed it on the&nbsp;server:</p>
+<div class="highlight"><pre><span class="err">#</span> <span class="nx">sshcommand</span> <span class="nx">acl</span><span class="na">-add</span> <span class="nx">dokku</span> <span class="o">&lt;</span><span class="nx">alias</span><span class="o">&gt;</span>
+<span class="p">(</span><span class="nx">paste</span> <span class="nb">key</span><span class="p">)^</span><span class="nb">D</span>
+</pre></div>
+
+
+<h2>Deploy</h2>
+<p>Now you should be able to just deploy and use dokku@your_server shell according to <span class="caps">README</span>. I&#8217;m considering writing a follow-up about some <a href="https://github.com/progrium/dokku/wiki/Plugins">plugins</a> and how to get them working without Ubuntu underneath. Have you encountered any other issues with Dokku on Debian? Please, share it in&nbsp;comments.  </p>
             <div class="hr"></div>
             <a href="#" class="go-top">Go Top</a>
 <div class="comments">
