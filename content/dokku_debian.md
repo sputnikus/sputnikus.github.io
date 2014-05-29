@@ -5,7 +5,7 @@ Slug: dokku_debian
 Author: Martin Putniorz
 Summary: How to get your Debian based Heroku up and running
 
-As you might know, [Dokku](https://github.com/progrium/dokku) officialy supports Ubuntu (14.04 x64 or 12.04 x64). But Ubuntu (at least on server) is just Debian, so there's no reason, why it should not work, right? Wrong - but I'm gonna show you problems and possible solution, that I've used.
+As you might know, [Dokku](https://github.com/progrium/dokku) officially supports Ubuntu (14.04 x64 or 12.04 x64). But Ubuntu (at least on server) is just Debian, so there's no reason, why it should not work, right? Wrong - but I'm gonna show you problems and possible solution, that I've used.
 
 ## Dokku installation
 
