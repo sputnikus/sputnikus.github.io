@@ -8,16 +8,13 @@ Unidecode==0.04.16
 blinker==1.3
 clepy==0.3.21
 decorator==3.4.0
-distribute==0.6.34
 docutils==0.11
 feedgenerator==1.7
 ghp-import==0.4.1
 mock==1.0.1
 nose==1.3.3
 pelican==3.3
-pitz==1.2.4
 pytz==2014.3
 six==1.6.1
 smartypants==1.8.3
 typogrify==2.0.4
-wsgiref==0.1.2
