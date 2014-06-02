@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/sputnikus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sputnikus.github.io
+  * I am sputnikus (https://keybase.io/sputnikus) on keybase.
+  * I have a public key with fingerprint FF9A 3F36 90C9 C8D6 D52F  1D2D 25CA 9B71 1609 D2CB
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ff9a3f3690c9c8d6d52f1d2d25ca9b711609d2cb",
+            "host": "keybase.io",
+            "key_id": "25CA9B711609D2CB",
+            "uid": "050451e11ed6cddcfb28baf2f8086e00",
+            "username": "sputnikus"
+        },
+        "service": {
+            "hostname": "sputnikus.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1401720114,
+    "expire_in": 157680000,
+    "prev": "cbb2f7c22666b1fc079dfdf37a1fc00fc37689654fac72d39b50b753a39b0d29",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owGbwMvMwMTo1R3ZJDaj6DTj6QO/khiCe3qNqpWS8lMqlayqlbJTwVRaZl56alFB
+UWZeiZKVUlqaZaJxmrGZpUGyZbJFilmKqVGaYYpRipFpcqJlkrmhoZmBZYpRcpKS
+jlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIUNTJ1drR0gqh3MXJ2AsqVgiUMTA1MTA1T
+DQ1TU8ySU1KS05KMLJIS04zSLAwszFINDEAKi1OL8hJzU4GqiwtKS/Iys0uLlWp1
+lIDCZZnJqSBHg+xGV6KXnlmSUZoEcUhBUX5JfnJ+DlBBRklJQbEVyICSygKQjvLU
+pHioWfFJmXkpwAAA6ihLLSrOzM9TsjIEqkwuyQQZbmhiYGhuZGBoaKKjlFpRkFmU
+Gp8JUmFqbmZhAAQge1LLgEYmJyUZpZknGxmZmZklGaYlG5hbpqSlpBmbJ4I4BmnJ
+xkAdlmamJmmJyeZGKcaWSaYGSeamxolAlkGKkaUSyHeFeflKVsZAZyamg/yVmZ6X
+WFJalKpU28kkw8LAyMTAxsoEikIGLk4BWMQ+FBNg6NLI5Fbze7Po3pnO55eW/l2t
+/HfZ33VNJy2PlFXdnSp+p18t4M67exU7t37fyM927nTK4VdH30j1W6vd1VizVPZA
+SmdR1UMn7sWnD+1LbuuKOLM2/0y9oeDj0+1vLI9Kqc83e7Tpl5rhsXlpui9/zZl8
+eoW5yMJD5jKhWStFFkhceX48V/GY0rtHPmw37jdpOb78InjuyccNCwtlLVavCZx1
+6dkjjqQb68qVeTXS9ThtfjcerOarbV4f1rbpSnMwg6/Gsk3hrBG8fH/KvEysRKLy
+q+NeLD8i6bXDnZcpUNrhoCf78wmqCzw/cOXfMxTUs2t59mgee/f9kGl+7O6Smkzy
+E4J5XTasaLJ/OkFR8VPsRubQ5IjPh+NN+K+EqTT86ox+cull8Px/E/jmr5jk7HPB
+fPvT+Lx1rpszubMyyj2bvgXlhRe73fvvseHn4ot5T3f4KUxzniCalHZgv8OEPepn
+Si6Unp5c3sGy1WvZcc+Ctj731xYbU5vWzYw0Z5KaE8rxtHTN880RH+VlHjbPnrFa
+U35noWghs+6tcNMvLKnXJKSuSP4OWvTgQtf5Y60yu5btyVy2wzFyg+Lnq+w9P/5c
++dmReeG64c4bIdrHFp9qrDUxFv7v7rhk4VzmnCs/p90q/LXx+3P5zRZSPZFvjV15
+UnSmH3nXZjl91fuC4L8/QjgehipO0s2ZuFjxlvM1+/c/nznfbHqo9lWuPgQA
+=pRVt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sputnikus
+
+==================================================================

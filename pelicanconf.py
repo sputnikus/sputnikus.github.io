@@ -58,3 +58,5 @@ MENUITEMS = (
 DEFAULT_METADATA = (
     ('about_author', 'Standing and hacking my way to antifragility. Coffee and beer aficionado.<br>I can be wrong.'),
 )
+
+FILES_TO_COPY = (('extra/keybase.txt', 'keybase.txt'),)
