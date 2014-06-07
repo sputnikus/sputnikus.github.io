@@ -35,6 +35,8 @@ TYPOGRIFY = True
 PLUGIN_PATH = '/home/sputnikus/workspace/pelican-plugins'
 PLUGINS = ['related_posts', ]
 
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
+
 RELATED_POSTS_MAX = 2
 
 TWITTER_USERNAME = 'sputnikus'
@@ -60,7 +62,7 @@ DEFAULT_METADATA = (
 )
 
 STATIC_PATHS = [
-   'extra/keybase.txt',
+    'extra/keybase.txt',
 ]
 
 EXTRA_PATH_METADATA = {
