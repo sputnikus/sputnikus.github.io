@@ -23,4 +23,4 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "bysputnikus"
-GOOGLE_ANALYTICS = "UA-17206429-4"
+GOOGLE_UNIVERSAL_ANALYTICS = "UA-17206429-4"
