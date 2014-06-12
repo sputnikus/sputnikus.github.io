@@ -8,7 +8,7 @@ I'm [hacker](http://paulgraham.com/gba.html) currently located in [Brno, Czech R
 
 ## Work stuff
 
-Started on small Python gigs (mostly data analysis, scrapping). Currently most of the projects I'm working on are web apps, with a little bit of operations. I worked with Django and Flask connected to Postgres or MongoDB. You can find more about me and my work on [Careers 2.0](https://careers.stackoverflow.com/mputniorz). If you are interested in some collaboration, don't hesitate to [contact me]({filename}/pages/contact-me.md).
+Started on small Python gigs (mostly data analysis, scraping). Currently most of the projects I'm working on are web apps, with a little bit of operations. I worked with Django and Flask connected to Postgres or MongoDB. You can find more about me and my work on [Careers 2.0](https://careers.stackoverflow.com/mputniorz). If you are interested in some collaboration, don't hesitate to [contact me]({filename}/pages/contact-me.md).
 
 ## Personal stuff 
 
