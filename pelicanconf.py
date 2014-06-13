@@ -24,8 +24,8 @@ MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 PAGE_URL = 'pages/{slug}'
 
-CATEGORY_URL = False
-CATEGORY_SAVE_AS = False
+#CATEGORY_URL = False
+#CATEGORY_SAVE_AS = False
 TAGS_URL = False
 TAGS_SAVE_AS = False
 
