@@ -292,6 +292,10 @@ pre {
     padding-right: 20px;
 }
 
+.footnote {
+    font-size: 75%;
+}
+
 /* LAYOUT CSS */
 #layout {
     padding-left: 25%; /* "left col (nav + list)" width */
