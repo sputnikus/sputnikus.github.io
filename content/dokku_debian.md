@@ -1,5 +1,6 @@
 Title: Dokku on Debian: Tips &amp; Tricks
 Date: 2014-05-29
+Category: Tech
 Tags: devops
 Slug: dokku_debian
 Author: Martin Putniorz

@@ -1,5 +1,6 @@
 Title: Jumping into running project
 Date: 2013-08-19 16:15
+Category: Tech
 Tags: programming
 Slug: running_projects
 Author: Martin Putniorz

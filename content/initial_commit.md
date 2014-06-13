@@ -1,5 +1,6 @@
 Title: Initial Commit
 Date: 2013-07-15 14:11
+Category: Life
 Tags: writing, misc
 Slug: initial_commit
 Author: Martin Putniorz

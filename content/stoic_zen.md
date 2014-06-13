@@ -1,6 +1,7 @@
 Title: Stoicism with Zen tools
 Date: 2014-06-03
-Tags: life
+Category: Life
+Tags: philosophy
 Slug: stoic_zen
 Author: Martin Putniorz
 Summary: Zen concepts in stoic life

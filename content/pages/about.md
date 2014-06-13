@@ -14,7 +14,7 @@ Started on small Python gigs (mostly data analysis, scraping). Currently most of
 
 I'm always for good coffee and/or beer. Cooking is my relaxation. I also like reading about all sorts of stuff: philosophy, politics, economics, lifestyle. Not only books, my favourite articles are published on [Tumblr](http://sputnikus.tumblr.com/) (which reflects Instapaper likes (along with some pictures)).
 
-Like this blog? Want to sent me to the Moon? <script>
+<!--Like this blog? Want to sent me to the Moon? <script>
   CoinWidgetCom.go({
     wallet_address: "DKWxj4wbFBMR3zbzxYZ9duzWLswLd4BDSf"
     , currency: "dogecoin"
@@ -26,6 +26,6 @@ Like this blog? Want to sent me to the Moon? <script>
     , lbl_address: "Send this shibe to the Moon:"
     , lbl_amount: "DOGE"
   });
-</script>
+</script>-->
 
 *Last updated 2014-06-08*
