@@ -62,9 +62,14 @@ DEFAULT_METADATA = (
 )
 
 STATIC_PATHS = [
+    'img',
     'extra/keybase.txt',
 ]
 
 EXTRA_PATH_METADATA = {
     'extra/keybase.txt': {'path': 'keybase.txt'},
 }
+
+FAVICON = "/img/favicon.png"
+
+OPEN_GRAPH_IMAGE = '/img/bysputnikus.jpg'
