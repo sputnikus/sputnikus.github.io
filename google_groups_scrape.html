@@ -129,6 +129,8 @@
 <p>For getting those crazy classes, browser developer tools are your friends. Date parsing is a bit pain in the ass. Either you can get <em>day. short_month</em> format or some full hybrid in <code>title</code> that with my Czech locale yielded something like <code>středa, 11. června 2014 17:57:36 UTC+2</code> (this is <strong>not</strong> <code>strptime %c</code> format!) so I just wrote a simple date parser for it. Info part is later used for thread&nbsp;scoring.</p>
 <h2 id="no-animals-harmed">No animals&nbsp;harmed</h2>
 <p>As you can see, even without the official <span class="caps">API</span>, getting some basic data from Google is pretty straightforward. If you want to see the full source code, head to the <a href="https://github.com/sputnikus/newschimp/blob/master/social/gg.py">newschimp</a> project. Pull requests are welcome. Also, unofficial Groups <span class="caps">API</span> is a great&nbsp;idea.</p>
+<h3 id="update">Update</h3>
+<p>This class based approach works only until Google changes client rendering (it&#8217;s a short term solution). For better scraper, see my <a href="https://sputnikus.github.io/google_groups_scrape_again">article</a> with third try on&nbsp;this. </p>
 <div class="footnote">
 <hr />
 <ol>
