@@ -6,7 +6,7 @@ Slug: google_groups_scrape_again
 Author: Martin Putniorz
 Summary: When you can't depend on class anymore
 
-In [previous article]({filename}/google_groups_scrape.md) about Google Group scraping I've demonstrated very minimal script to get basic informations about group threads. It turns out class based aproach doesn't work so well, because JavaScript frontend of Groups is not consistent in class naming. I fixed my scripts and now I'm going to show you, what I've changed.
+In [previous article]({filename}/google_groups_scrape.md) about Google Group scraping I've demonstrated very minimal script to get basic informations about group threads. It turns out class based approach doesn't work so well, because JavaScript frontend of Groups is not consistent in class naming. I fixed my scripts and now I'm going to show you, what I've changed.
 
 ## Third try
 

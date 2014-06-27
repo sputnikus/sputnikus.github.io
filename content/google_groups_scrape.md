@@ -68,5 +68,9 @@ For getting those crazy classes, browser developer tools are your friends. Date 
 
 As you can see, even without the official API, getting some basic data from Google is pretty straightforward. If you want to see the full source code, head to the [newschimp](https://github.com/sputnikus/newschimp/blob/master/social/gg.py) project. Pull requests are welcome. Also, unofficial Groups API is a great idea.
 
+### Update
+
+This class based approach works only until Google changes client rendering (it's a short term solution). For better scraper, see my [article]({filename}/google_groups_scrape_again.md) with third try on this. 
+
 [^1]: They are both really useful, I just enjoy using lxml more. Ian Bicking [sumed it](http://www.ianbicking.org/blog/2008/12/lxml-an-underappreciated-web-scraping-library.html) nicely.  
 [^2]: JS needs some time to render (when scraping Google Groups, the longer you sleep the more threads are going to render)
