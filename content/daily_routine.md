@@ -1,5 +1,5 @@
 Title: Daily routine of lazy hacker
-Date: 2014-07-16
+Date: 2014-07-15
 Category: Life
 Tags: time, routine
 Slug: daily_routine
