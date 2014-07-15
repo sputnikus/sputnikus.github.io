@@ -14,4 +14,8 @@ Started on small Python gigs (mostly data analysis, scraping). Currently most of
 
 I'm always for good coffee and/or beer. Cooking is my relaxation. I also like reading about all sorts of stuff: philosophy, politics, economics, lifestyle. Not only books, my favourite articles are published on [Tumblr](http://sputnikus.tumblr.com/) (which reflects Instapaper likes (along with some pictures)).
 
-*Last updated 2014-06-08*
+## Little disclaimer
+
+Some links on this blog are affiliate or referral. They link to the stuff I use, read, eat or drink and think it's good enough for me. I'm trying to mark them with ```title```, so you can recognize such link by just holding your mouse pointer over it.
+
+*Last updated 2014-07-15*
