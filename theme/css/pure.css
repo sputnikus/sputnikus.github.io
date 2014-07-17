@@ -348,6 +348,7 @@ pre {
         text-align: center;
         top: auto;
         position: static;
+        padding-top: 1em
     }
 
     hr {
@@ -362,6 +363,7 @@ pre {
 }
 
 @media (max-width: 480px) {
+
     .cover-img {
         background-position: 0;
     }
